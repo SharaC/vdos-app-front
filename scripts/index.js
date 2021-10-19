@@ -272,12 +272,12 @@ function uploadVideo() {
                 <br>
                 <div>
                     <label class="labelForm"> A continuación adjunta el archivo de tu video</label><br>
-                    <input type="file" id="video" name="video"/>
+                    <input type="file" id="video" name="video" accept="video/mp4"/>
                 </div>
                 <br>
                 <div>
                     <label class="labelForm">Sube una imagen para la miniatura de tu video</label><br>
-                    <input type="file" id="preview" name="preview"/>
+                    <input type="file" id="preview" name="preview" accept="image/*"/>
                 </div>
                 <div style="text-align: center;">
                     <label > *El video puede tardar varios segundos en subir al servidor,<br> solo debes presionar el botón y esperar. <br>Cuando la carga termina, este formulario se cierra automáticamente ;) </label><br>

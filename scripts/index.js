@@ -280,6 +280,7 @@ function uploadVideo() {
                     <input type="file" id="preview" name="preview"/>
                 </div>
                 <div style="text-align: center;">
+                    <label >*El video puede tardar varios segundos en subir al servidor, solo debes presionar el botón y esperar que cuando la carga termine este formulario se cierra automáticamente ;)</label><br>
                     <input id="btnUpload" type="submit" class="btnLarge" value="Subir video!">
                 </div>
             </form>

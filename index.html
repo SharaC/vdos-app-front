@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDos</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body class="">
+    <header>
+        <div id="headMobile">
+            <a id="logo" href="./index.html"><img src="./images/logo-desktop-modo-noc.png" alt="logo gifOS"></a>
+            <label id="menuMobile">
+                <input onclick="hamburgerMenu()" type="checkbox" />
+                <img src="./images/burger.svg" alt="icon menu">
+            </label>
+        </div>
+        <div>
+            <nav id="ppalNav" class="">
+                <ul>
+                    <li>
+                    </li>
+                    <li>
+                    </li>
+                    <li>
+                        <a >SUBE TUS PROPIOS VIDEOS ---->> </a>
+                        <span></span>
+                    </li>
+                </ul>
+            </nav>
+            <a id="createGifo" ><img src="images/button-crear-gifo.svg" alt="icon plus"></a>
+            <!-- <a id="createGifo" data-target="#myModal" data-toggle="modal" class="MainNavText" id="MainNavHelp" href="#myModal">
+                <img src="images/button-crear-gifo.svg" alt="icon plus">
+            </a> -->
+        </div>
+    </header>
+    <main>
+    <!--    <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+    
+                 Modal content
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Some text in the modal.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    -->
+        <section id="headerSearcher">
+            <div>
+                <p id="slogan">Inspírate, busca, y sube los mejores <span>VIDEOS</span></p>
+                <img id="imgSearcher" src="./images/ilustra_header.svg" alt="imagen header: tres personas abrazadas">
+            </div>
+            <div id="searchDiv">
+                <div id="searcher">
+                    <div id="search" class="inactive">
+                        <img id="iconSearch" class="nonvisible" src="./images/icon-search.svg" alt="icon search">
+                        <input id="inputSearch" type="search" placeholder="Busca videos por titulo o autor">
+                        <img id="closeSearch" alt="icon close" src="./images/close.svg">
+                    </div>
+                    <div id="suggestions" class="nonvisible">
+                        <hr>
+                        <ul id="listSuggestions">
+                        </ul>
+                    </div>
+                </div>
+                <div id="headerResultSearch">
+                    <h1 class="activeSearch"></h1>
+                    <p class="activeSearch"></p>
+                </div>
+            </div>
+        </section>
+        <section id="resultsSearch">
+        </section>
+        <section id="trending">
+            <h1>Trending VDosS</h1>
+            <p>Mira los últimos Videos subidos.</p>
+            <div id="gifsTrending">
+                <img id="buttonLeft" class="btnSlider" alt="button slide left" src="./images/button-left.svg">
+                <div id="gridGifs">
+                </div>
+                <img id="buttonRight" class="btnSlider active" alt="button slide right" src="./images/button-right.svg">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="compartir">
+            <span>Compartir en:</span>
+            <img class="socialNetwork" src="./images/icon_facebook.svg" alt="icon facebook">
+            <img class="socialNetwork" src="./images/icon-twitter.svg" alt="icon twitter">
+            <img class="socialNetwork" src="./images/icon_instagram.svg" alt="icon instagram">
+        </div>
+        <span id="rights">@VDos 2021 All Rights Reserved</span>
+    </footer>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>

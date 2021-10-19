@@ -1,6 +1,6 @@
 const API_KEY = "yujlaY7XJnWMZa6xShdTC1M1IOL3u0uh";
 const URL_GIPHY = "https://api.giphy.com";
-const URL_VDOS = "http://vdos-app-bootcamp.herokuapp.com";
+const URL_VDOS = "https://vdos-app-bootcamp.herokuapp.com";
 let modeCurrent = localStorage.getItem('modeCurrent');
 let searchDiv = document.getElementById('search');
 let iconSearchActive = document.getElementById('iconSearch');
